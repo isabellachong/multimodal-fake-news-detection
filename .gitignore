@@ -1,0 +1,8 @@
+# ignore virtual environment
+.venv/
+
+# ignore original data
+data/multimodal_train.tsv
+
+# ignore images
+data/images/
