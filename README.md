@@ -4,6 +4,7 @@ GitHub Repository Navigation
 
 Explanation of Directories and Files:
 
+```
 DSA4213-Group26/
 ├── scripts/
 │ └── preprocessing.ipynb (code for EDA, preprocessing of fakeddit dataset)
@@ -15,3 +16,4 @@ DSA4213-Group26/
 ├── .gitignore (files excluded from version control)
 ├── README.md (project information)
 └── requirements.txt (Python dependencies)
+```
