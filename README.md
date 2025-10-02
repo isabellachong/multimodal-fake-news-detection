@@ -1,5 +1,8 @@
 # DSA4213-Group26
 
+**Dataset**: https://github.com/entitize/Fakeddit
+* For this project, we used a subset of `multimodal_train.tsv` 
+
 #### GitHub Repository Navigation
 
 Explanation of Directories and Files:
