@@ -6,3 +6,6 @@ data/multimodal_train.tsv
 
 # ignore images
 data/images/
+
+# exclude saved models
+models/
