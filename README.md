@@ -1,5 +1,4 @@
-# DSA4213 Group26 Final Project
-## Multimodal Fake News Detection
+# Multimodal Fake News Detection
 Detecting misleading and fake news is a growing challenge as multimodal misinformation increasingly combines text and images, making it harder to discern real from misleading or fake claims. **This project evaluates unimodal BERT, ResNet50 models, a late-fusion BERT-ResNet model and several CLIP variants for three-class classification on a subset of the Fakeddit dataset.** 
 
 Experimental results show that: 
@@ -9,7 +8,7 @@ Experimental results show that:
 
 These findings highlight the value of multimodal representation learning and demonstrate that models trained on cross-modal interactions offer the most effective approach for detecting multimodal misinformation.  
 
-### Overview
+## Overview
 Task: Ternary Fake News Classification
 * Classifies sample as true, misleading or fake news
 
@@ -28,12 +27,12 @@ Methods:
     * Fine-Tune Classifier Head Only (Text and image encoders frozen; train only classifier)
     * Full Fine-Tuning (Optimisation of both encoders and classifier)
 
-### GitHub Repository Navigation
+## GitHub Repository Navigation
 
 Explanation of Directories and Files:
 
 ```
-DSA4213-Group26/
+multimodal-fake-news-detection/
 ├── scripts/
 │ ├── preprocessing.ipynb       # EDA and preprocessing of fakeddit dataset
 │ ├── Bert_ResNet.ipynb         # fine-tuning of Bert and ResNet for fusion model
@@ -50,11 +49,11 @@ DSA4213-Group26/
 └── requirements.txt            # Python dependencies for CLIP and preprocessing
 ```
 
-### How to Run Experiments
+## How to Run Experiments
 1. Clone repository
 ```
-git clone https://github.com/isabellachong/DSA4213-Group26
-cd DSA4213-Group26
+git clone https://github.com/isabellachong/multimodal-fake-news-detection
+cd multimodal-fake-news-detection
 ```
 2. Install dependencies
    
@@ -72,3 +71,6 @@ scripts/preprocessing.ipynb       # data exploration and preprocessing
 scripts/Bert_ResNet.ipynb         # BERT, ResNet50 and fusion fine-tuning
 scripts/CLIP.ipynb                # CLIP zero-shot and fine-tuning
 ```
+
+## Contributors
+Fun Wen Xin, Isabella Chong
